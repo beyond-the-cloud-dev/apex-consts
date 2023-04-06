@@ -1,4 +1,4 @@
-public class ProfileConsts implements ConcreteConsts {
+public class ProfileConsts {
     public static final ProfileConsts INSTANCE = new ProfileConsts();
 
     public final Name NAME = new Name();
