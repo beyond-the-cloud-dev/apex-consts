@@ -1,6 +1,6 @@
 # Consts
 
-The framework that allows keeping your apex's consts in an ordered way.
+Consts framework allows keeping apex's constants in an ordered way.
 
 ## Example
 
@@ -13,13 +13,13 @@ Account acc = new Account(
 ```
 
 ```java
-System.debug(Consts.ACCOUNT.TYPE.PROSPECT); // 'Prospect'
-System.debug(Consts.ACCOUNT.RATING.HOT); // 'Hit'
+System.debug(Consts.ACCOUNT.TYPE.PROSPECT); //'Prospect'
+System.debug(Consts.ACCOUNT.RATING.HOT); //'Hit'
 
-System.debug(Consts.CONTACT.API_NAME); // 'Contact'
-System.debug(Consts.CONTACT.LEAD_SOURCE.WEB); // 'Web'
+System.debug(Consts.CONTACT.API_NAME); //'Contact'
+System.debug(Consts.CONTACT.LEAD_SOURCE.WEB); //'Web'
 
-System.debug(Consts.OPPORTUNITY.TYPE.EXISTING_CUSTOMER_DOWNGRADE); // 'Existing Customer - Downgrade'
+System.debug(Consts.OPPORTUNITY.TYPE.EXISTING_CUSTOMER_DOWNGRADE); //'Existing Customer - Downgrade'
 ```
 
 ## How it works?
