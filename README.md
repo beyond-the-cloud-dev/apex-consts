@@ -6,7 +6,7 @@ Consts framework allows keeping apex's constants in an ordered way.
 
 ```java
 Account acc = new Account(
-    Name = 'My Account',
+    Name = 'My Account,
     Type = Consts.ACCOUNT.TYPE.PROSPECT,
     Rating = Consts.ACCOUNT.RATING.HOT
 );
@@ -24,15 +24,15 @@ System.debug(Consts.OPPORTUNITY.TYPE.EXISTING_CUSTOMER_DOWNGRADE); //'Existing C
 
 ## How it works?
 
-All concrete classes are created as a *singleton*, so each class is initialized once during the transaction. To decrease heap size getters and setters are in use. It means that class will be *initialized on demand*, not always. e.g execution of `Consts.ACCOUNT.TYPE.PROSPECT` will create instance of `AccountConsts` only, without creating `ContactConsts`.
+All concrete classes are created as *singletons*, so each class is initialized once during the transaction. To decrease heap size getters and setters are in use. It means that the class will be *initialized on demand*, not always. e.g execution of `Consts.ACCOUNT.TYPE.PROSPECT` will create an instance of `AccountConsts` only, without creating `ContactConsts`.
 
-Code Architecture is following *Open/Close* and *Single Responsibility Principle*. It means that code is easy to extend, and each class is responsible only for specific set of consts.
+Code Architecture is following *Open/Close* and *Single Responsibility Principle*. It means that code is easy to extend, and each class is responsible only for a specific set of consts.
 
-## How to use?
+## How to use it?
 
 ### Create concrete consts class
 
-- Create `INSTANCE` variable to keep class instance (singleton).
+- Create an `INSTANCE` variable to keep the class instance (singleton).
 - Create inner classes to order values.
 
 ```java
