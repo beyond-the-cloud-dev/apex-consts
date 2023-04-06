@@ -6,7 +6,7 @@ Consts framework allows keeping apex's constants in an ordered way.
 
 ```java
 Account acc = new Account(
-    Name = 'My Account,
+    Name = 'My Account',
     Type = Consts.ACCOUNT.TYPE.PROSPECT,
     Rating = Consts.ACCOUNT.RATING.HOT
 );
