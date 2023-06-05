@@ -1,6 +1,6 @@
 # Consts
 
-Consts framework allows keeping apex's constants in an ordered way.
+The Constants Framework provides a structured approach for managing constants in the Apex.
 
 ## Example
 
@@ -24,17 +24,21 @@ System.debug(Consts.OPPORTUNITY.TYPE.EXISTING_CUSTOMER_DOWNGRADE); //'Existing C
 
 ## How it works?
 
-All concrete classes are created as *singletons*, so each class is initialized once during the transaction. To decrease heap size getters and setters are in use. It means that the class will be *initialized on demand*. e.g execution of `Consts.ACCOUNT.TYPE.PROSPECT` will create an instance of `AccountConsts` only, without creating `ContactConsts`.
+The framework employs the concept of singletons to create concrete classes. 
+Each class is initialized once during the transaction, reducing heap size usage.
 
-Code Architecture is following *Open/Close* and *Single Responsibility Principle*.
-It means that code is easy to extend, and each class is responsible only for a specific set of consts.
+Getters and setters are used to lazily initialize the classes. 
+For example, accessing `Consts.Account.TYPE.PROSPECT` will only create an instance of the `AccountConsts` class without creating `ContactConsts`.
+
+The code architecture follows the Open/Closed and Single Responsibility Principle principles. 
+This design ensures the code is easily extensible, and each class is responsible for a specific set of constants.
 
 ## How to use it?
 
-### Create concrete consts class
+### Create a concrete consts class
 
-- Create an `INSTANCE` variable to keep the class instance (singleton).
-- Create inner classes to order values.
+- Define an `INSTANCE` variable to hold the class instance (singleton).
+- Create inner classes to organize the constant values.
 
 ```java
 public class ContactConsts {
@@ -52,7 +56,7 @@ public class ContactConsts {
 }
 ```
 
-### Add concrete consts class to `Consts`
+### Add a concrete consts class to `Consts`
 
 ```java
 public class Consts {
