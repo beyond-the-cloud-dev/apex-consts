@@ -1,23 +1,22 @@
 @IsTest
-public class ConstsTest {
-
+private class ConstsTest {
     @IsTest
     static void accountConsts() {
-        Assert.areNotEqual(null, Consts.ACCOUNT);
+        Assert.isNotNull(Consts.ACCOUNT, 'Account constants should not be null');
     }
 
     @IsTest
     static void contactConsts() {
-        Assert.areNotEqual(null, Consts.CONTACT);
+        Assert.isNotNull(Consts.CONTACT, 'Contact constants should not be null');
     }
 
     @IsTest
     static void opportunityConsts() {
-        Assert.areNotEqual(null, Consts.OPPORTUNITY);
+        Assert.isNotNull(Consts.OPPORTUNITY, 'Opportunity constants should not be null');
     }
 
     @IsTest
     static void profileConsts() {
-        Assert.areNotEqual(null, Consts.PROFILE);
+        Assert.isNotNull(Consts.PROFILE, 'Profile constants should not be null');
     }
 }

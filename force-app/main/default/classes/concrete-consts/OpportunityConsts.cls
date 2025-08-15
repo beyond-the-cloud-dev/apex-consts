@@ -1,3 +1,4 @@
+@SuppressWarnings('PMD.FieldNamingConventions, PMD.EmptyStatementBlock')
 public class OpportunityConsts {
     public static final OpportunityConsts INSTANCE = new OpportunityConsts();
 
@@ -12,4 +13,6 @@ public class OpportunityConsts {
         public final String EXISTING_CUSTOMER_UPGRADE = 'Existing Customer - Upgrade';
         public final String NEW_CUSTOMER = 'New Customer';
     }
+
+    private OpportunityConsts() {}
 }

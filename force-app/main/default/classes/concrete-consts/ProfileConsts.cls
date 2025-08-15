@@ -1,3 +1,4 @@
+@SuppressWarnings('PMD.FieldNamingConventions, PMD.EmptyStatementBlock, PMD.ExcessivePublicCount, PMD.TooManyFields')
 public class ProfileConsts {
     public static final ProfileConsts INSTANCE = new ProfileConsts();
 
@@ -41,4 +42,6 @@ public class ProfileConsts {
         public final String SYSTEM_ADMINSTRATOR = 'System Administrator';
         public final String WORK_COM_ONLY_USER = 'Work.com Only User';
     }
+
+    private ProfileConsts() {}
 }

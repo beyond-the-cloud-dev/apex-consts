@@ -1,5 +1,5 @@
+@SuppressWarnings('PMD.PropertyNamingConventions')
 public class Consts {
-
     public static final AccountConsts ACCOUNT {
         get {
             return AccountConsts.INSTANCE;

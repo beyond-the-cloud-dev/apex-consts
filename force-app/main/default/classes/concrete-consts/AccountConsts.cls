@@ -1,3 +1,4 @@
+@SuppressWarnings('PMD.FieldNamingConventions, PMD.EmptyStatementBlock')
 public class AccountConsts {
     public static final AccountConsts INSTANCE = new AccountConsts();
 
@@ -21,4 +22,6 @@ public class AccountConsts {
         public final String HOT = 'Hot';
         public final String WARM = 'Warm';
     }
+
+    private AccountConsts() {}
 }

@@ -1,3 +1,4 @@
+@SuppressWarnings('PMD.FieldNamingConventions, PMD.EmptyStatementBlock')
 public class ContactConsts {
     public static final ContactConsts INSTANCE = new ContactConsts();
 
@@ -10,4 +11,6 @@ public class ContactConsts {
         public final String ACTIVATED = 'Activated';
         public final String DRAFT = 'Draft';
     }
+
+    private ContactConsts() {}
 }
