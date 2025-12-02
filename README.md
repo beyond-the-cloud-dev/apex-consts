@@ -2,6 +2,8 @@
 
 The Constants Framework provides a structured approach for managing constants in the Apex.
 
+Consts Lib is part of [Apex Fluently](https://apexfluently.beyondthecloud.dev/), a suite of production-ready Salesforce libraries by Beyond the Cloud.
+
 ## Example
 
 ```java
