@@ -116,6 +116,5 @@ if (acc.Type == Consts.ACCOUNT.TYPE.PROSPECT) {  // Works correctly
 ## Next Steps
 
 - Learn [How It Works](/how-it-works)
-- Explore [Built-in Constants](/constants/account)
 - See [More Examples](/examples)
 - [Create Your Own Constants](/creating-constants)
