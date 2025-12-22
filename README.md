@@ -1,8 +1,8 @@
 <div align="center">
   <a href="https://apexfluently.beyondthecloud.dev/libraries/apex-consts.html">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="./assets/apex-consts-logo.png">
-      <img alt="Async Lib logo" src="./assets/apex-consts-logo.png" height="98">
+      <source media="(prefers-color-scheme: dark)" srcset="./website/public/logo.png">
+      <img alt="Apex Consts logo" src="./website/public/logo.png" height="98">
     </picture>
   </a>
   <h1>Apex Consts</h1>
