@@ -15,6 +15,8 @@
 <img alt="GitHub Release" src="https://img.shields.io/github/v/release/beyond-the-cloud-dev/apex-consts?display_name=tag&style=for-the-badge&color=blue">
 </div>
 
+## Getting Started
+
 The Constants Framework provides a structured approach for managing constants in the Apex.
 
 Consts Lib is part of [Apex Fluently](https://apexfluently.beyondthecloud.dev/), a suite of production-ready Salesforce libraries by Beyond the Cloud.
