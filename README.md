@@ -72,6 +72,8 @@ public class ContactConsts {
         public final String ACTIVATED = 'Activated';
         public final String DRAFT = 'Draft';
     }
+
+    private ContactConsts() {}
 }
 ```
 
