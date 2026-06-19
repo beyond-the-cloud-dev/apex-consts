@@ -35,7 +35,7 @@ Apex Consts has **zero dependencies**. It works standalone.
 
 ## API Version
 
-Requires Salesforce API version **64.0** or higher.
+Requires Salesforce API version **66.0** or higher.
 
 ## Verification
 
