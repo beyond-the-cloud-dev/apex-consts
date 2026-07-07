@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  cleanUrls: true,
   title: "Apex Consts",
   description: "A structured framework for managing constants in Salesforce Apex",
   base: '/',
