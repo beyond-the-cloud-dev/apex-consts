@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://apexconsts.beyondthecloud.dev/sitemap.xml
