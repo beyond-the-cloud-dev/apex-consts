@@ -5,7 +5,7 @@
       <img alt="Apex Consts logo" src="./website/public/logo.png" height="98">
     </picture>
   </a>
-  <h1>Apex Consts</h1>
+  <h1><a href="https://apexconsts.beyondthecloud.dev">Apex Consts</a></h1>
 
 <a href="https://beyondthecloud.dev"><img alt="Beyond The Cloud logo" src="https://img.shields.io/badge/MADE_BY_BEYOND_THE_CLOUD-555?style=for-the-badge"></a>
 
