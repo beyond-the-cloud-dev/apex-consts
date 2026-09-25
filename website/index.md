@@ -142,4 +142,3 @@ Apex Consts is part of [Apex Fluently](https://apexfluently.beyondthecloud.dev/)
 
 Ready to eliminate hard-coded strings? [Get started →](/getting-started)
 
-<BTCFooter context="apex-consts" />
