@@ -15,6 +15,19 @@ export default defineConfig({
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     // Bing Webmaster Tools site verification
     ['meta', { name: 'msvalidate.01', content: 'E86DF40B08FDAC5301E67AD10EFB3E28' }],
+    // Google Analytics (G-GMFXF3M8P9)
+    [
+      'script',
+      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-GMFXF3M8P9' }
+    ],
+    [
+      'script',
+      {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-GMFXF3M8P9');`
+    ],
     ['meta', { name: 'author', content: 'Beyond The Cloud' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:site_name', content: siteTitle }],
